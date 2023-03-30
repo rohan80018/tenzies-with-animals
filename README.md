@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Deployed Link 
+Open [https://tenzies--with--animals.web.app/](https://tenzies--with--animals.web.app/) to view in your phone or pc browser.
+
 ## Available Scripts
 
 In the project directory, you can run:
