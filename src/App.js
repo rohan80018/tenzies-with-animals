@@ -103,7 +103,7 @@ export default function App() {
         {tenzies && <Confetti />}
         <h1 className="title">Tenzies With Animals</h1>
         {tenzies ? (
-            <p> Current Session Top Score <span>{Math.round(score)}</span> sec</p>
+            <p> Current Session Top Score <span style={{fontWeight:"600",fontSize:'24px'}}>{Math.round(score)}</span> sec</p>
         ) : (
             <p className="instruction">
             Roll until all animals are the same. Click each die to freeze it at
@@ -111,8 +111,8 @@ export default function App() {
             </p>
         )}
         <div className="dice-container">{diceElements}</div>
-        {tenzies ? (<p>Time Taken <span>{timeTaken}</span> sec</p>) : ""}
-        <p>You have rolled <span>{count}</span> times</p>
+        {tenzies ? (<p>Time Taken <span style={{fontWeight:"600",fontSize:'24px'}}>{timeTaken}</span> sec</p>) : ""}
+        <p>You have rolled <span style={{fontWeight:"600",fontSize:'24px'}}>{count}</span> times</p>
         <button className="roll-dice" onClick={rollDice}>
             {tenzies ? "New Game" : "Roll"}
         </button>
